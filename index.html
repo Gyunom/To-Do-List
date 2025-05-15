@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta CHARSET="utf-8">
+    <meta name="viewport" content="width=device-width, initiatl-scale=1.0">
+    <title> To-Do-List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="My ToDO">
+    <meta name="theme-colour" content="#4CAF50">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            My To-Do List
+            <button id="pwa-install-button" class="install-button" aria-label="Install app">
+                Install App
+            </button>
+        </h1>
+        <div class="input-section">
+            <input type="text" id="todo-input" placeholder="Add a new task...">
+            /,<button id="add-todo-btn"> Add Task</button>
+        </div>
+        <ul id="todo-list">
+            </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

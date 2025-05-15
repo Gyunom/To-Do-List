@@ -1,0 +1,17 @@
+{
+    "name": "Simple To-Do PWA",
+    "short_name": "My ToDo",
+    "description": "A simple Progressve Web App for managing your tasks.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#e8f5e9",
+    "theme_color": "#4CAF50",
+    "icons":[
+        {
+            "src": "/Images/images.png",
+            "sizes": "192x192",
+            "type": "image/png"
+
+        }
+    ]
+}
